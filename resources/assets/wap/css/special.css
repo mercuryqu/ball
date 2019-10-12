@@ -1,0 +1,117 @@
+.describe_p {
+    margin-top: 0.77rem;
+    font-size: 0.32rem;
+    color: #666;
+}
+
+.conten_con {
+    padding: 0 0.4rem;
+}
+
+.ojbk {
+    font-size: 0.4rem;
+    color: #000;
+    margin-top: 1.12rem;
+}
+
+.napes {
+    position: relative;
+    height: 1.43rem;
+    width: 100%;
+    margin-bottom: 0.17rem;
+}
+
+.nape_lefts {
+    float: left;
+    height: 1.21rem;
+    width: 1.21rem;
+    background: #dddede;
+    border-radius: 0.17rem;
+}
+
+.nape_rights {
+    float: left;
+    height: 1.24rem;
+    width: 74%;
+}
+
+.nape_rights h6 {
+    font-size: 0.3rem;
+    color: #070707;
+    margin-bottom: 0.08rem;
+    font-weight: 400;
+}
+
+.nape_rights p {
+    font-size: 0.16rem;
+    color: #515151;
+}
+
+.nape_rights_spam span {
+    position: absolute;
+    display: inline-block;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    text-align: center;
+    width: 0.93rem;
+    /* border: 0.01rem solid #515151; */
+    font-size: 0.28rem;
+    border-radius: 1.08rem;
+    margin-top: 0.25rem;
+    top: 0;
+    right: 3px;
+    background: #f0f1f6;
+    color: #3d8ed3;
+}
+.nape_rights_spams span {
+    position: absolute;
+    display: inline-block;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    text-align: center;
+    width: 0.93rem;
+    /* border: 0.01rem solid #515151; */
+    font-size: 0.28rem;
+    border-radius: 1.08rem;
+    margin-top: 0.25rem;
+    top: 0;
+    right: 3px;
+    background: #f0f1f6;
+    color: #3d8ed3;
+}
+.nape_rights_spam {
+    display: inline-block;
+    width: 77%;
+    margin-left: 0.3rem;
+    height: 1.43rem;
+    float: right;
+    position: relative;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.nape_rights_spams {
+    display: inline-block;
+    width: 77%;
+    margin-left: 0.3rem;
+    height: 1.43rem;
+    float: right;
+    position: relative;
+   
+}
+.napes_s {
+    margin-top: 0.77rem;
+}
+
+.Native {
+    width: 2.46rem;
+    height: 0.7rem;
+    border: 0.01rem solid #d2d2d2;
+    border-radius: 0.12rem;
+    margin: 1rem auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.15rem;
+}
+
+.Native img {
+    height: 0.37rem;
+}

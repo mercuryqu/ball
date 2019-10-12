@@ -1,0 +1,98 @@
+.headline {
+    font-size: 0.32rem;
+    color: #333333;
+    text-align: center;
+    height: 0.88rem;
+    line-height: 1rem;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+    background: #fff;
+}
+
+body {
+    background: #f0f0f6;
+}
+
+.headline_span {
+    display: inline-block;
+    background: url(../images/left-arrow.png) no-repeat center;
+    height: 0.38rem;
+    width: 0.24rem;
+    background-size: 100%;
+    position: absolute;
+    left: 0.41rem;
+    top: 0.2rem;
+    padding: 0.1rem;
+    background-origin: content-box;
+}
+
+.conten {
+    margin-top: 0.88rem;
+    padding-top: 0.73rem;
+    text-align: center;
+}
+
+.container {
+    height: 1.92rem;
+    padding-left: 0.38rem;
+    background: #fff;
+    position: relative;
+}
+
+.telephone {
+    height: 0.95rem;
+    background: #fff;
+    border: none;
+    width: 100%;
+    font-size: 0.32rem;
+}
+
+.code {
+    height: 0.95rem;
+    background: #fff;
+    border: none;
+    width: 100%;
+    font-size: 0.32rem;
+}
+
+.telephone {
+    border-bottom: 0.01rem solid #d3d3d5 !important;
+}
+
+.get-code {
+    position: absolute;
+    right: 0.22rem;
+    bottom: 0.28rem;
+    font-size: 0.28rem;
+    padding-left: 0.3rem;
+    border-left: 0.01rem solid #d3d3d5;
+    border: navajowhite;
+    background: #fff;
+    display: inline-block;
+    border-left: 0.01rem solid #d3d3d5;
+}
+
+.login {
+    border: none;
+    width: 94%;
+    margin: 0 auto;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    border-radius: 0.1rem;
+    margin-top: 2.58rem;
+    background: #fff;
+}
+
+#phone_msg {
+    text-align: left;
+    font-size: 0.27rem;
+    margin-top: 0.2rem;
+}
+#code_msg {
+    text-align: left;
+    font-size: 0.27rem;
+    margin-top: 0.2rem;
+}

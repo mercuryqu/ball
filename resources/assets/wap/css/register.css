@@ -1,0 +1,63 @@
+.headline {
+    font-size: 0.32rem;
+    color: #333333;
+    text-align: center;
+    height: 0.88rem;
+    line-height: 1rem;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+    background: #fff;
+}
+.headline_span {
+    display: inline-block;
+    background: url(../images/left-arrow.png) no-repeat center;
+    height: 0.38rem;
+    width: 0.24rem;
+    background-size: 100%;
+    position: absolute;
+    left: 0.41rem;
+    top: 0.2rem;
+    padding: 0.1rem;
+    background-origin: content-box;
+}
+.conten{
+        margin-top: 0.88rem;
+        padding-top: 0.73rem;
+            text-align: center;
+}
+.s_iptlop{
+    height: 1.92rem;
+    padding-left: 0.38rem;
+       background: #e8e8e8;
+       position: relative;
+}
+.s_iptlop input{
+    height: 0.95rem;
+    background: #e8e8e8;
+    border: none;
+    width: 100%;
+    font-size: 0.32rem;
+}
+.s_ipt{
+    border-bottom: 0.01rem solid #d3d3d5 !important;
+}
+.s_iptlop_span{
+      position: absolute;
+      right: 0.22rem;
+      bottom: 0.28rem;
+      font-size: 0.28rem;
+      padding-left: 0.3rem;
+      border-left: 0.01rem solid #d3d3d5;
+}
+.bot{
+    border: none;
+    width: 94%;
+    margin: 0 auto;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    border-radius: 0.1rem;
+    margin-top: 2.58rem;
+}

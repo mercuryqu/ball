@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="description" content="不超过150个字符" />
+    <meta name="keywords" content="" />
+    <meta content="caibaojian" name="author" />
+    <title></title>
+
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/submit.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/submit.js"></script>
+
+
+</head>
+
+<body onload="setTimeout(function(){window.scrollTo(0,1)},100);">
+    <!-- 头部start -->
+    <div class="headline">
+        <span class="headline_span"></span>
+        提交小程序
+    </div>
+    <!-- 头部end -->
+    <div class="conten">
+        <div class="s_iptlop">
+            <input class="s_ipt" value="" placeholder="小程序名称">
+
+            <input class="s_iptl" value="" placeholder="小程序简介">
+
+        </div>
+        <!-- 简介starrt -->
+        <textarea class="contentex" placeholder="请输入简介"></textarea>
+        <!-- 简介end -->
+        <div class="divinprt">
+            小程序分类
+            <div class="Recommend_er_dwon">
+                <img src="../images/3球小栈-分类_03.png">
+            </div>
+        </div>
+        <!-- 小程序头像start -->
+        <div class="boxdiv" onclick="alkb1()">
+            <span>小程序头像</span>
+            <div class="yanzRight">
+                <input style="display: none;" id="st18" class="inputs" onchange="previewImage(this,4,st18)" name="evidence" type="file" />
+                <span class="dui" style="display: none;"></span>
+            </div>
+            <div id="preview4">
+                <img src="../images/5提交小程序_03.png" alt="" id="imghead4" height="200" width="200" />
+            </div>
+
+        </div>
+        <!-- 小程序头像end -->
+        <!-- 小程序头像start -->
+        <div class="boxdiv" onclick="alkb2()">
+            <span>小程序码</span>
+            <div class="yanzRight">
+                <input style="display: none;"  class="inputs" id="st19" onchange="previewImage(this,3,st19)" name="evidence" type="file" />
+                <span class="dui" id="imgOrder_dui" style="display: none;"></span>
+            </div>
+            <div id="preview3">
+                <img src="../images/5提交小程序_03.png" alt="" id="imghead3" height="200" width="200" />
+            </div>
+
+        </div>
+        <!-- 小程序头像end -->
+
+        <!-- 小程序头像start -->
+        <div class="boxdiv" onclick="alkb3()">
+            <span>小程序宣传图</span>
+            <div class="yanzRight">
+                <input style="display: none;" id="st20"  class="inputs" onchange="previewImages(this,5,st20)" name="evidence" type="file" />
+                <span class="dui" style="display: none;"></span>
+            </div>
+            <div id="preview5">
+                <img src="../images/5提交小程序_03.png" alt="" class="imghead5" id="imghead5" height="200" width="200" />
+            </div>
+
+        </div>
+        <!-- 小程序头像end -->
+        <button class="bot" id="bot" onclick="readAsDataURL()">
+            提交</button>
+
+    </div>
+
+
+    <!-- 弹出层start -->
+    <div class="fext">
+        <span class=" conten_con_sp ">搜索</span>
+    </div>
+    <!-- 弹出层end -->
+</body>
+<script src="../js/swiper.min.js"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+
+
+    });
+</script>
+
+</html>

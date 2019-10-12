@@ -1,0 +1,1 @@
+var home_ajax_url = '/modules';

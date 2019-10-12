@@ -1,0 +1,66 @@
+.headline_span {
+    display: inline-block;
+    background: url(../images/left-arrow.png) no-repeat center;
+    height: 0.38rem;
+    width: 0.24rem;
+    background-size: 100%;
+    position: absolute;
+    left: 0.41rem;
+    top: 0.2rem;
+    padding: 0.1rem;
+    background-origin: content-box;
+}
+body{
+       background: #f0f0f6;
+}
+.divinprt {
+    height: 0.95rem;
+    background: #fff;
+    line-height: 0.95rem;
+    width: 100%;
+    position: relative;
+    font-size: 0.32rem;
+    padding-left: 0.38rem;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 0.55rem;
+}
+
+.Recommend_er_dwon {
+    width: 0.4rem;
+    position: absolute;
+    right: 0.23rem;
+    z-index: 10;
+    top: 0.4rem;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 0;
+    transform: rotate(-90deg);
+}
+
+.divinprtt {
+    height: 1.45rem;
+    background: #fff;
+    width: 100%;
+    padding-left: 0.38rem;
+    margin-top: 0.7rem;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+}
+
+.divinprtt img {
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    margin-right: 0.44rem;
+        border-radius: 50%;
+}
+.headline {
+    text-align: center;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+    font-size: 0.32rem;
+    color: #333333;
+    background: #fff;
+}

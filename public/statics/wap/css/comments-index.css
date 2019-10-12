@@ -1,0 +1,80 @@
+.synopsis_pol {
+    min-height: 3.6rem;
+    margin-bottom: 0.31rem;
+    background: #e8e8e8;
+    border-radius: 0.12rem;
+    padding: 0.4rem;
+}
+
+.synopsis_pol_lo {
+    float: right;
+    width: 100%;
+}
+
+.opsi {
+    width: 100%;
+    margin-bottom: 0.1rem;
+}
+
+.opsi_left {
+    float: left;
+    color: #727272;
+    font-size: 0.28rem;
+}
+
+.opsi_right {
+    float: right;
+    color: #bdbdbd;
+    font-size: 0.28rem;
+}
+
+.synopsis_pol_xx {
+    color: #828181;
+    margin-bottom: 0.1rem;
+}
+
+.synopsis_pol_xx li {
+    float: left;
+    margin-right: 0.02rem;
+}
+
+.synopsis_pol_lo p {
+    font-size: 0.3rem;
+    color: #3e3e3e;
+}
+
+.conten {
+    padding: 0.54rem 0.4rem;
+
+}
+
+.synopsis_pl_sp h5 {
+    float: left;
+    font-size: 0.37rem;
+    color: #070707;
+    font-weight: 400;
+}
+
+.synopsis_pl_sp {
+    padding: 0.54rem 0.4rem;
+    padding-top: 1.2rem;
+}
+
+.opsitop {
+    border-top: 0.01rem solid #d2d2d2;
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+.headline_span {
+    display: inline-block;
+    background: url(../images/left-arrow.png) no-repeat center;
+    height: 0.38rem;
+    width: 0.24rem;
+    background-size: 100%;
+    position: absolute;
+    left: 0.41rem;
+    top: 0.2rem;
+    padding: 0.1rem;
+    background-origin: content-box;
+}

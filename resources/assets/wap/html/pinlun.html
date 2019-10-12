@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="description" content="不超过150个字符"/>
+    <meta name="keywords" content=""/>
+    <meta content="caibaojian" name="author"/>
+    <title></title>
+
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/pinlun.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/pinlun.js"></script>
+
+
+</head>
+
+<body onload="setTimeout(function(){window.scrollTo(0,1)},100);">
+<div class="headline">
+    <span class="headline_spanl">取消</span>
+    撰写评论
+    <span class="headline_spanr">发送</span>
+
+</div>
+<div class="copr">
+    <ul class="synopsis_pol_xx clearfix comment">
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li>☆</li>
+    </ul>
+    <p>轻点星型来评分</p>
+</div>
+
+<div class="s_iptlop">
+    <input class="s_ipt" value="" placeholder="标题">
+    <input class="s_iptl" value="" placeholder="评论(选填)">
+</div>
+<!-- 弹出层start -->
+<div class="fext">
+    <span class=" conten_con_sp ">搜索</span>
+</div>
+<!-- 弹出层end -->
+</body>
+<script src="../js/swiper.min.js"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplayDisableOnInteraction: false,
+
+    });
+    $(function () {
+        var wjx_none = '☆',
+            wjx_sel = '★';
+
+        $(".comment").on("mouseenter", "li", function () {
+            // 鼠标移入：让当前的元素和它前面的所有兄弟变为实心
+            // end方法：结束当前链最近的一次过滤操作，并且返回匹配元素之前的状态
+            $(this).text(wjx_sel).prevAll().text(wjx_sel).end().nextAll().text(wjx_none);
+        }).on("mouseleave", function () {
+            // 先让所有的五角星变为空心
+            $(".comment").children().text(wjx_none);
+            // 让具有clicked类的元素变为实心，并且它前面的所有元素也变为实心
+            $(".clicked").text(wjx_sel).prevAll().text(wjx_sel);
+        }).on("click", "li", function (e) {
+            // 给当前元素添加类，给它所有的兄弟元素移除类
+            // 此处clicked类，只做标识用
+            $(this).addClass("clicked").siblings().removeClass("clicked");
+            var Total = $(this).prevAll().length + 1;
+            console.log(Total)
+        });
+    });
+</script>
+
+</html>

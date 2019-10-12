@@ -1,0 +1,753 @@
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+input,
+textarea,
+p,
+hr,
+thead,
+tbody,
+tfoot,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.swiper-scrollbar-drag {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(160, 160, 160, 0.5);
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'PingFangSC', 'sans-serif', 'HYQihei', 'Microsft Yahei';
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+table th {
+    font-weight: inherit;
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+}
+
+img {
+    border: 0 none;
+    width: auto \9;
+    max-width: 100%;
+    vertical-align: top;
+    height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+select[size],
+select[multiple],
+select[size][multiple] {
+    border: 1px solid #AAA;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video,
+progress {
+    display: inline-block;
+}
+
+body {
+    background: #fff;
+    margin: 0 auto;
+}
+
+input::-webkit-input-speech-button {
+    display: none;
+}
+
+button,
+input,
+textarea {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.mack_top {
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    z-index: 10001;
+    display: none;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.93rem;
+    padding-top: .68rem;
+    background-color: #fff;
+}
+
+.miniapp-code {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.miniapp-name {
+    margin: .18rem;
+}
+
+.tips {
+    line-height: .34rem;
+    color: #83898f;
+    font-size: .24rem;
+}
+
+.tips {
+    line-height: .34rem;
+    color: #83898f;
+    font-size: .24rem;
+}
+
+.mack {
+    height: 812px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(58, 58, 58, 0.8);
+    z-index: 1000;
+    display: none;
+}
+
+.fext {
+    font-size: 0.32rem;
+    color: #333333;
+    text-align: center;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    position: relative;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    display: none;
+}
+
+.headline {
+    text-align: left;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-bottom: none;
+    font-size: 0.55rem;
+    color: #333333;
+    padding: 0 0.4rem;
+    margin-top: 0.58rem;
+}
+
+.conten_con_img {
+    height: 6.93rem;
+    width: 100%;
+    background: #dddede;
+    border-radius: 0.18rem;
+    /*margin: 0.47rem auto 0 auto;*/
+}
+
+.margins {
+    margin-top: 0.46rem !important;
+}
+
+.Recommend_cont,
+.conten_con_img {
+    box-shadow: 0 -2px 30px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.format-img {
+    width: 760px;
+    border-radius: 0.18rem
+}
+
+.logo-img {
+    border-radius: 0.23rem !important;
+}
+
+.mack_li div {
+    height: 0.99rem;
+   width: 32.9333333%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.09rem;
+}
+
+.mack_li {
+    height: 0.99rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.menu-gray {
+    font-size: 0.2rem;
+    color: #9E9E9E;
+}
+
+.menu-color {
+    font-size: 0.2rem;
+    color: #1e90e6;
+}
+
+.mack_li div img {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.nape_rights p {
+    font-size: 0.24rem;
+    color: #515151;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.nape_rights {
+    float: left;
+    height: 1.4rem;
+    width: 74%;
+    box-sizing: border-box;
+    padding-top: 0.1rem;
+}
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    padding-bottom: 1rem;
+}
+
+.limit-name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.conten_con_imgss {
+    position: relative;
+    box-shadow: 0 -2px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    overflow: auto;
+}
+
+.conten_con_imgss.hovers {
+    transition: all .2s linear;
+    transform: translate3d(0, -2px, 0);
+    animation: myfirsts 0.8s;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    height: 100%;
+    margin: 0rem !important;
+}
+
+.conten_con_imgss.rehovers {
+    box-shadow: 0 -2px 30px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, -2px, 0);
+    animation: myfirstse 0.8s;
+}
+
+@keyframes myfirsts {
+    0% {
+        transform: scale3d(0.99, 0.99, 1);
+    }
+    50% {
+        transform: scale3d(0.9, 0.9, 1);
+    }
+    100% {
+        top: 0px;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes myfirstse {
+    0% {
+        transform: scale3d(0.99, 0.99, 1);
+    }
+    50% {
+        transform: scale3d(0.9, 0.9, 1);
+    }
+    100% {
+        top: 0px;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/** apps list start**/
+
+.nape_rights_spam {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    margin-left: 0.38rem;
+    position: relative;
+    border-bottom: 0.01rem solid #F2F2F2;
+}
+
+.nape_rights_spam span {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 1.1rem;
+    font-size: 0.26rem;
+    border-radius: 1.08rem;
+    margin-top: 0.25rem;
+    top: -0.1rem;
+    right: 3px;
+    background: #E5E5E5;
+    color: #1e90e6;
+    /*padding: 0.03rem 0;*/
+    height: 0.3rem;
+}
+
+.macks {}
+
+.napes {
+    position: relative;
+    height: 1.43rem;
+    width: 100%;
+    margin-bottom: 0.17rem;
+}
+
+.nape_lefts {
+    float: left;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 0.17rem;
+}
+
+.nape_rights_spam {
+    width: 75%;
+    display: inline-block;
+    margin-left: 0.3rem;
+    height: 1.23rem;
+    float: left;
+    position: relative;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+
+.nape_rights {
+    box-sizing: border-box;
+    padding-top: 0.1rem;
+    float: left;
+    height: 1.24rem;
+    width: 74%;
+}
+
+.nape_rights h6 {
+    font-size: 0.3rem;
+    color: #000;
+    margin-bottom: 0.08rem;
+    font-weight: 600;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #FFFFFF;
+}
+
+.nape_rights p {
+    font-size: 0.24rem;
+    color: #989898;
+}
+
+/** apps list end**/
+
+.headline-title {
+    font-size: 0.32rem;
+    color: #333333;
+    text-align: center;
+    height: 0.88rem;
+    line-height: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+
+.page-title {
+    text-align: center;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+    font-size: 0.32rem;
+    color: #333333;
+    background: #fff;
+}
+
+/** global share style start **/
+
+[data-component=SimpleModal] {
+    display: none;
+    position: fixed;
+    left: 0;
+    font-size: .28rem;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1001;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80%;;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 6.92rem;
+    height: 1rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: .16rem;
+    text-align: center;
+    line-height: 1rem;
+    display:table;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper .header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: .86rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #303030;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper .logo {
+    width: 1.24rem;
+    height: .32rem;
+    margin-right: .28rem;
+    margin-left: .38rem;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper .share-tips {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper .icon-image {
+    width: 1rem;
+    height: 1rem;
+    background-color: #666;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: .52rem;
+    margin-left: .36rem;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper .text {
+    color: #101010;
+    width: 4.48rem;
+}
+
+[data-component=MiniappWechatShareHelpModal] .content-wrapper .icon-triangle {
+    position: absolute;
+    top: -.18rem;
+    right: .18rem;
+    width: 0;
+    height: 0;
+    border-left: .2rem solid transparent;
+    border-right: .2rem solid transparent;
+    border-bottom: .2rem solid #fff;
+}
+
+/** global share style end **/
+
+
+/** global share style start **/
+
+[data-component=SimpleModal-qxz] {
+    position: fixed;
+    left: 0;
+    font-size: .28rem;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1001;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: .4rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 6.92rem;
+    height: 2.52rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: .16rem;
+    padding-top: 0.3rem;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper .header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: .86rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #303030;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper .logo {
+    width: 1.24rem;
+    height: .32rem;
+    margin-right: .28rem;
+    margin-left: .38rem;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper .share-tips {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper .icon-image {
+    width: 1rem;
+    height: 1rem;
+    background-color: #666;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: .52rem;
+    margin-left: .36rem;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper .text {
+    color: #101010;
+    width: 4.48rem;
+}
+
+[data-component=MiniappWechatShareHelpModal-qxz] .content-wrapper .icon-triangle {
+    position: absolute;
+    top: -.18rem;
+    right: .18rem;
+    width: 0;
+    height: 0;
+    border-left: .2rem solid transparent;
+    border-right: .2rem solid transparent;
+    border-bottom: .2rem solid #fff;
+}
+
+/** global share style end **/
+
+.back-referrer {
+    z-index: 2;
+    position: fixed;
+    left: 0.3rem;
+    bottom: 0.3rem;
+    background: rgba(44, 55, 53, 0.8);
+    border-radius: 50%;
+    color: #fff;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.icon {
+    width: 0.8rem;
+    height: 0.8rem;
+    vertical-align: text-top;
+    fill: currentColor;
+    overflow: hidden;
+    position: relative;
+}
+
+.branddesc {
+    color: #999999;
+    font-size: 0.22rem;
+}
+.content-wrapper#content-wrapper{
+    display: block !important;
+}

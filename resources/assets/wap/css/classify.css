@@ -1,0 +1,186 @@
+.slides {
+    height: 5rem;
+    width: 100%;
+    background: #e8e8e8;
+}
+
+.Recommend_h2 {
+    margin-top: 0.33rem;
+    margin-left: 0.4rem;
+    font-size: 0.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.slidesd {
+    height: 1.5rem;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+}
+
+.Recommend_er {
+    position: relative;
+}
+
+.swiper-container {
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+
+.Recommend_er_dwon {
+    width: 0.9rem;
+    height: 1.3rem;
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    /* border-left: 0.01rem solid #d2d2d2; */
+    top: 0rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.6rem;
+    box-shadow: -5px 0 8px -5px #d8d8d8;
+}
+
+.Recommend_er_dwon img {
+    width: 0.34rem;
+}
+
+.napes_s {
+    margin-top: 0.77rem;
+}
+
+.napes {
+    position: relative;
+    height: 1.43rem;
+    width: 100%;
+    margin-bottom: 0.17rem;
+}
+
+.nape_lefts {
+    float: left;
+    height: 1.21rem;
+    width: 1.21rem;
+    background: #dddede;
+    border-radius: 0.17rem;
+}
+
+.nape_rights_spam {
+    display: inline-block;
+    width: 77%;
+    margin-left: 0.3rem;
+    height: 1.43rem;
+    float: right;
+    position: relative;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+
+.nape_rights {
+    float: left;
+    height: 1.24rem;
+    width: 74%;
+}
+
+.nape_rights h6 {
+    font-size: 0.3rem;
+    color: #070707;
+    margin-bottom: 0.08rem;
+    font-weight: 400;
+}
+
+.nape_rights p {
+    font-size: 0.16rem;
+    color: #515151;
+}
+
+.nape_rights_spam span {
+    position: absolute;
+    display: inline-block;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    text-align: center;
+    width: 0.93rem;
+    /* border: 0.01rem solid #515151; */
+    color: #333333;
+    font-size: 0.28rem;
+    border-radius: 1.08rem;
+    margin-top: 0.25rem;
+    top: 0;
+    right: 3px;
+    background: #f0f1f6;
+    color: #3d8ed3;
+}
+
+.conten {
+    padding: 0 0.4rem;
+}
+
+.list {
+      display: inline-block;
+      width: 1rem;
+      font-size: 0.22rem;
+      color: #333333;
+      text-align: center;
+     height: 1.12rem;
+      margin: 0 11px;
+      float: left;
+}
+
+.list img {
+    height: 0.57rem;
+    width: 0.57rem;
+    background: #666;
+    margin-bottom: 0.13rem;
+}
+
+.Recommend_er_list {
+    position: absolute;
+    top: 1.53rem;
+    background: #fff;
+    z-index: 100;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+    border-bottom: 0.01rem solid #d2d2d2;
+    display: none;
+}
+
+.lists {
+    display: inline-block;
+    height: 0.95rem;
+    width: 18.9%;
+    font-size: 0.22rem;
+    color: #333333;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.lists img {
+    height: 0.57rem;
+    width: 0.57rem;
+    background: #666;
+    margin-bottom: 0.13rem;
+}
+
+.lopk {
+     border-bottom: 1.9px solid #000;
+    
+}
+
+.lccm {
+    height: 1.4rem;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+
+.iccmcont {
+    width: 10000px;
+    height: 1.4rem;
+    position: relative;
+}

@@ -1,0 +1,45 @@
+.headline_spanl{
+	float: left;
+	color: #3d8ed3;
+}
+.headline_spanr{
+	float: right;
+	color: #3d8ed3;
+}
+.headline{
+	    padding: 0 0.2rem;
+}
+.synopsis_pol_xx {
+    color: #828181;
+    margin-bottom: 0.1rem;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+.synopsis_pol_xx li {
+    float: left;
+          padding: 0 0.1rem;
+        color: #3d8ed3;
+        font-size: 0.5rem;
+}
+.copr{
+	    text-align: center;
+	        margin-top: 0.3rem;
+}
+.copr p{
+	    font-size: 0.2rem;
+    color: #515151;
+}
+.s_iptlop {
+    height: 1.92rem;
+    padding-left: 0.38rem;
+      margin-top: 0.09rem;
+    position: relative;
+}
+.s_iptlop input {
+       height: 0.95rem;
+    border: none;
+    width: 100%;
+    font-size: 0.32rem;
+    border-top: 0.01rem solid #e8e8e8;
+}

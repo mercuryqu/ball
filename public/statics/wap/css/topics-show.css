@@ -1,0 +1,83 @@
+.describe_p {
+    margin-top: 0.77rem;
+    font-size: 0.32rem;
+    color: #666;
+}
+
+.conten_con {
+    padding: 0 0.4rem;
+}
+
+.ojbk {
+    font-size: 0.4rem;
+    color: #000;
+    margin-top: 1.12rem;
+}
+
+.headline_span {
+    display: inline-block;
+    background: url(../images/left-arrow.png) no-repeat center;
+    height: 0.38rem;
+    width: 0.24rem;
+    background-size: 100%;
+    position: absolute;
+    left: 0.41rem;
+    top: 0.2rem;
+    padding: 0.1rem;
+    background-origin: content-box;
+}
+
+.napes {
+    position: relative;
+    height: 1.43rem;
+    width: 100%;
+    margin-bottom: 0.17rem;
+}
+
+.nape_lefts {
+    float: left;
+    height: 1.21rem;
+    width: 1.21rem;
+    background: #dddede;
+    border-radius: 0.17rem;
+}
+
+.nape_rights {
+    float: left;
+    height: 1.24rem;
+    width: 74%;
+}
+
+.nape_rights h6 {
+    font-size: 0.3rem;
+    color: #070707;
+    margin-bottom: 0.08rem;
+    font-weight: 400;
+}
+
+.nape_rights p {
+    font-size: 0.24rem;
+    color: #515151;
+}
+
+.Native {
+    width: 2.46rem;
+    height: 0.7rem;
+    border: 0.01rem solid #d2d2d2;
+    border-radius: 0.12rem;
+    margin: 1rem auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.15rem;
+}
+
+.Native img {
+    height: 0.37rem;
+}
+
+.topic-title {
+    margin-bottom: 0.7rem;
+    height: 8.92rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}

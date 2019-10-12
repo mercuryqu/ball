@@ -1,0 +1,76 @@
+.conten {
+    padding: 0 0.4rem;
+}
+
+.conten h1 {
+    font-size: 0.55rem;
+    color: #333333;
+    font-weight: 500;
+}
+
+.s_ipt {
+    border: none;
+    background: #f3f3f3;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    padding-left: 0.8rem;
+    border-radius: 0.2rem;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 83%;
+    font-size: 0.27rem;
+    color: #999999;
+}
+
+.s_iptlop {
+    position: relative;
+    margin-top: 0.3rem;
+}
+
+#wrapper {
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.s_iptlop_span {
+    position: absolute;
+    background: url(../images/search-button.png) no-repeat center;
+    display: inline-block;
+    height: 0.28rem;
+    width: 0.28rem;
+    background-size: 100%;
+    top: 0.22rem;
+    left: 0.31rem;
+}
+
+.hotgrabblea {
+    height: 0.64rem;
+    width: 100%;
+    line-height: 0.64rem;
+    border-bottom: 0.01rem solid #eaeaea;
+    margin-top: 0.3rem;
+}
+
+.hotgrabble {
+    width: 100%;
+}
+
+.hotgrabble h2 {
+    font-size: 0.4rem;
+    color: #333;
+    font-weight: 400;
+    margin-top: 0.34rem;
+}
+
+.hotgrabble p {
+    font-size: 0.38rem;
+    color: #545353;
+    font-weight: 400;
+}
+
+.hot-search-name {
+    margin-top: 0.2rem;
+}
